@@ -1,6 +1,11 @@
-def hello():
-    print('Привет всем!')
+#include <iostream>
 
+void hello()
+{
+    std::cout << "Привет всем!\n";
+}
 
-def hello_2():
-    print('Огромный привет всем!')
+void hello_2()
+{
+    std::cout << "Огромный привет всем!\n";
+}
